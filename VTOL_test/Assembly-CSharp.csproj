@@ -52,9 +52,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\testRotate.cs" />
+     <Compile Include="Assets\Scripts\ReadData.cs" />
+     <Compile Include="Assets\Scripts\ReadTxt.cs" />
      <Compile Include="Assets\Scripts\DataUI.cs" />
      <Compile Include="Assets\Scripts\AccelerationVlocityControl.cs" />
      <Compile Include="Assets\Scripts\ConstantForce.cs" />
+     <None Include="Assets\Data\data.txt" />
+     <None Include="Assets\StreamingAssets\dataWriteAng.txt" />
+     <None Include="Assets\StreamingAssets\dataWrite.txt" />
  <Reference Include="UnityEngine">
  <HintPath>Z:/UnityEditor/2020.3.15f2c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
